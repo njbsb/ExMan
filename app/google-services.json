@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "521316306048",
+    "firebase_url": "https://exman-6b38a.firebaseio.com",
+    "project_id": "exman-6b38a",
+    "storage_bucket": "exman-6b38a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:521316306048:android:a5dac2de669564155eaa65",
+        "android_client_info": {
+          "package_name": "com.fyp.exman"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "521316306048-ald1lsf54qf2od43to95qjbsujvmi3am.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.fyp.exman",
+            "certificate_hash": "fa0b1a1edf0267c43fbd4b0912fe284031f70b29"
+          }
+        },
+        {
+          "client_id": "521316306048-pmq6s9j08kcdt1cqu18k1vbupu3pq6ht.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC63N8ZIxVJ4h0wPC1MNicTF1f4NfKPVc8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "521316306048-pmq6s9j08kcdt1cqu18k1vbupu3pq6ht.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
