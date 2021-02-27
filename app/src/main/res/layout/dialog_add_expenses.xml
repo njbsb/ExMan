@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="12dp"
+    android:gravity="center_horizontal">
+    <TextView
+        android:text="Add Expenses"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:ignore="HardcodedText"
+        android:layout_marginBottom="16dp"
+        />
+    <TextView
+        android:text="Amount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:ignore="HardcodedText"
+        android:padding="4dp"/>
+    <EditText
+        android:background="@drawable/input_background"
+        android:id="@+id/input_expense_amount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:autofillHints="RM0"
+        android:padding="6dp"
+        android:inputType="text"
+        tools:ignore="LabelFor" />
+    <TextView
+        android:text="Category"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="4dp"
+        tools:ignore="HardcodedText" />
+    <Spinner
+        android:id="@+id/spinner_expense_category"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="6dp"/>
+</LinearLayout>

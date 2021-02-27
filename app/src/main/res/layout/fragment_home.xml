@@ -19,9 +19,9 @@
 
     <androidx.cardview.widget.CardView
         android:layout_width="300dp"
-        android:layout_height="wrap_content"
+        android:layout_height="500dp"
         android:layout_centerHorizontal="true"
-        app:cardBackgroundColor="@android:color/holo_blue_bright"
+        app:cardBackgroundColor="#ff7979"
         app:cardCornerRadius="12dp"
         android:layout_centerInParent="true"
         >
@@ -29,11 +29,19 @@
             android:orientation="vertical"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:padding="12dp">
+            android:padding="16dp"
+            android:gravity="center_horizontal">
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Expenses Partition"/>
+                android:text="Expenses Partition"
+                android:textColor="@color/white"
+                tools:ignore="HardcodedText"
+                android:textStyle="bold"/>
+            <com.github.mikephil.charting.charts.PieChart
+                android:id="@+id/pieChart"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
         </LinearLayout>
     </androidx.cardview.widget.CardView>
 
